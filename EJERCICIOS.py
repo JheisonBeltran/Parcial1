@@ -8,7 +8,7 @@ Created on Mon Mar  1 19:01:27 2021
 
 # EJERCICIO 1
 Valor = float(input('Digite el precio de las manzanas: '))
-Cantidad = float(input('Digite el número de kilos a comprar: '))
+Cantidad = float(input('Digite el número de kg a comprar: '))
 Valor_Total = Valor * Cantidad
 Descuento1 = Valor_Total * 0.10
 Valor_Descuento1 = Valor_Total - Descuento1
@@ -83,11 +83,13 @@ elif Num_Hectareas <= 5:
 
 # EJERCICIO 5
 Recoletar_n1 = float(input('Digite el primer número : '))
-Recoletar_n2 = float(input('Digite el primer número : '))
-Recoletar_n3 = float(input('Digite el primer número : '))
+Recoletar_n2 = float(input('Digite el segundo número : '))
+Recoletar_n3 = float(input('Digite el tercer número : '))
 if Recoletar_n1 > Recoletar_n2 and Recoletar_n1 > Recoletar_n3:
     print(f'El mayor numero es el : {Recoletar_n1}')
 elif Recoletar_n2 > Recoletar_n1 and Recoletar_n2 > Recoletar_n3:
     print(f'El mayor numero es el : {Recoletar_n2}')
 elif Recoletar_n3 > Recoletar_n1 and Recoletar_n3 > Recoletar_n2:
     print(f'El mayor numero es el : {Recoletar_n3}')
+
+# JABT
